@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#13221d">
+ <title>下一手，上场 · 玩法演示</title>
+ <link rel="stylesheet" href="style.css">
+ <script defer src="score.js"></script>
+ <script defer src="app.js"></script>
+</head>
+<body>
+ <div class="page-shell">
+  <header class="topbar">
+   <a class="brand" href="../" aria-label="Back to project"><span class="brand-mark" aria-hidden="true"></span><span data-text="brand">记分牌失控</span></a>
+   <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="zh" aria-pressed="true">中文</button><span aria-hidden="true">/</span><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+  </header>
+  <main>
+   <section class="intro" aria-labelledby="page-title">
+    <div class="intro-copy"><p class="overline" data-text="eyebrow">球场 · 牌型 · 选择</p><h1 id="page-title" data-text="title">下一手，上场。</h1><p class="lede" data-text="lede">从手牌中选出组合，看看这一手会如何计分。</p></div>
+    <div class="intro-aside"><span class="aside-line" aria-hidden="true"></span><p data-text="aside">一段独立的交互示例<br>源于篮球与牌型的组合</p></div>
+   </section>
+   <section class="workbench" aria-label="Card selection demo">
+    <div class="workbench-head"><div><p class="overline" data-text="sample">交互演示</p><h2 data-text="choose">选择你的手牌</h2></div><div class="selection-count"><strong id="chosen-count">2</strong><span> / 5</span><span class="count-label" data-text="selected">张已选</span></div></div>
+    <p class="helper" data-text="helper">选择 1–5 张牌，组合和分数会随之变化。</p>
+    <div class="table" aria-label="Basketball court">
+     <svg class="court-lines" viewBox="0 0 800 310" preserveAspectRatio="none" aria-hidden="true"><path d="M10 10H790V300H10zM400 10V300M10 87H130V223H10M790 87H670V223H790M10 47h38a108 108 0 0 1 0 216H10M790 47h-38a108 108 0 0 0 0 216h38"/><circle cx="400" cy="155" r="58"/></svg>
+     <div class="result" aria-live="polite" aria-atomic="true"><p class="result-label" data-text="hand">当前组合</p><h3 id="hand-name">一对</h3><div class="calculation"><strong id="chips">35</strong><span>×</span><strong id="multiplier">2</strong></div><p class="calculation-label" data-text="formula">示例基础分 × 示意倍率</p></div>
+    </div>
+    <div class="hand-header"><span data-text="yourCards">你的手牌</span><span data-text="tap">点击选择或取消</span></div>
+    <div class="cards" id="cards" role="group" aria-label="Cards"></div>
+    <div class="actions"><button class="action-primary" id="play" type="button" data-text="play">打出这一手 <span aria-hidden="true">→</span></button><button class="action-secondary" id="reset" type="button" data-text="reset">重新选择</button></div>
+    <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+   </section>
+   <footer class="footer"><p data-text="disclaimer">这是作品集中的独立简化示例，牌组与数值仅用于演示，不包含完整游戏。</p><span data-text="offline">无需登录 · 可离线运行</span></footer>
+  </main>
+ </div>
+</body>
+</html>
