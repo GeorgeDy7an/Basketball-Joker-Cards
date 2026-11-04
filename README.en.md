@@ -8,20 +8,22 @@ This repository is a **portfolio**: it presents the game’s design, interfaces,
 
 ## Screenshots
 
-These images were captured in isolated browsers across different development versions using sample data; they are not screenshots from a physical phone. Select an image to view it at full size.
+These English-language screenshots show an in-development offline prototype, captured in an isolated browser with sample data. They are not screenshots from a physical phone or the published version. Select an image to view it at full size.
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/screenshots/home.png"><img src="assets/screenshots/home.png" alt="Home: ready to play" width="100%"></a><br>Home</td>
-    <td width="50%"><a href="assets/screenshots/gameplay.png"><img src="assets/screenshots/gameplay.png" alt="Match: lineup and cards" width="100%"></a><br>Match</td>
+    <td width="50%"><a href="assets/screenshots/home-en.png"><img src="assets/screenshots/home-en.png" alt="Home: ready to play" width="100%"></a><br>Home</td>
+    <td width="50%"><a href="assets/screenshots/gameplay-en.png"><img src="assets/screenshots/gameplay-en.png" alt="Match: lineup and cards" width="100%"></a><br>Match</td>
   </tr>
   <tr>
-    <td><a href="assets/screenshots/market.png"><img src="assets/screenshots/market.png" alt="Market: adjust the current run" width="100%"></a><br>Market</td>
-    <td><a href="assets/screenshots/recruit.png"><img src="assets/screenshots/recruit.png" alt="Player recruitment" width="100%"></a><br>Recruitment</td>
+    <td><a href="assets/screenshots/market-en.png"><img src="assets/screenshots/market-en.png" alt="Market: adjust the current run" width="100%"></a><br>Market</td>
+    <td><a href="assets/screenshots/recruit-en.png"><img src="assets/screenshots/recruit-en.png" alt="Player recruitment" width="100%"></a><br>Recruitment</td>
+  </tr>
+  <tr>
+    <td><a href="assets/screenshots/tutorial-en.png"><img src="assets/screenshots/tutorial-en.png" alt="Tutorial: learning to play" width="100%"></a><br>Tutorial</td>
+    <td></td>
   </tr>
 </table>
-
-More screens: [Tutorial](assets/screenshots/tutorial.png)
 
 ## Game at a glance
 
